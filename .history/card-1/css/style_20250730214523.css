@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr));
+
+       grid-column: span 2;
+}
+.item {
+      color: white;
+      padding: 40px 0;
+      font-size: 24px;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* Her kutuya farklı arka plan rengi */
+    .item:nth-child(1) { background-color: #e74c3c; } /* kırmızı */
+    .item:nth-child(2) { background-color: #f39c12; } /* turuncu */
+    .item:nth-child(3) { background-color: #2ecc71; } /* yeşil */
+    .item:nth-child(4) { background-color: #3498db; } /* mavi */
+    .item:nth-child(5) { background-color: #9b59b6; } /* mor */
+    .item:nth-child(6) { background-color: #1abc9c; } /* camgöbeği */

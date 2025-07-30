@@ -1,0 +1,46 @@
+.grid-container {
+     max-width: 300px;
+    max-height: 300px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+    "box1 box1"
+    "box2 box3"
+    "box4 box4";
+  padding: 20px;
+}
+
+.shoes{
+    max-width: 90%;
+    max-height: 90%;
+}
+.box {
+  padding: 40px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+}
+/* Renkler ve alanlar */
+.box1 {
+    
+  background-color: #ff6b6b;
+  grid-area: box1;
+
+}
+
+.box2 {
+  background-color: #6bc1ff;
+  grid-area: box2;
+}
+
+.box3 {
+  background-color: #51d88a;
+  grid-area: box3;
+}
+
+.box4 {
+  background-color: #a77ff2;
+  grid-area: box4;
+}
